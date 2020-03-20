@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const API_KEY = "AIzaSyDNrSifLqsOunLlDq-FRaYXWy7tlJxg1SM"; // Ideally, this should be made private, but I didn't have time to change it
+// I originally left the API key here in plain text, but I created a new repository and removed the key.
+// If you would like to use the key to test my code, please contact me at joeygonzalesdones@gatech.edu or
+// at joeygonzalesdones@gmail.com.
+const API_KEY = ""; 
 
 // We need this to avoid a "blocked by CORS policy" error;
 // I spent two hours trying to fix this problem before stumbling upon this thread, which suggested the fix below:
