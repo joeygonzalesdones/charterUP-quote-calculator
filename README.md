@@ -1,3 +1,9 @@
+## Important Information
+
+This is my submission for [charterUP](https://www.charterup.com/)'s coding challenge for software engineer job applicants. I was one of two winners for the challenge, which allowed me to move directly to a final-round interview with charterUP. The program is a simple React.js app to calculate a price quote for chartering one or more buses on a journey. To be creative, I implemented the [Google Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) to automatically calculate the distance between two locations in order to compute a distance-based price. For my initial submission, I didn't have time to properly secure the Google API key, so I left it in plain text in the src/apis/maps.js file. Now that the submission deadline has passed, I removed the API key from the file and recreated the repository to ensure the API key wouldn't remain in the commit history. If you would like to use the key to test my code, please contact me at joeygonzalesdones@gatech.edu or at joeygonzalesdones@gmail.com.
+
+## Auto-Generated Create React App Content
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
